@@ -1,35 +1,35 @@
 <?php
- $name = "Bhuwan Bhandari";
- $jobTitle = "Web Developer";
- $summary = "An international student at Northern Kentucky University doing bachelors in Computere Science. Motivated and detail-oriented web developer with a strong foundation in HTML, CSS, JavaScript, and Node.js. Adept at building responsive and user-friendly web applications, with a recent focus on mastering React. Actively engaged in a research project for the past four months, demonstrating a commitment to continuous learning and practical application of new technologies. Eager to leverage technical skills and collaborative experience to contribute effectively to innovative web development projects.";
- $contacts = array(
-  "bhandarib1@nku.edu",        
-  8597863719,                   
-  "linkedin.com/in/bhuwan9898", 
-  "github.com/bhuwan9898"       
- );
+$name = "Bhuwan Bhandari";
+$jobTitle = "Web Developer";
+$summary = "An international student at Northern Kentucky University doing bachelors in Computere Science. Motivated and detail-oriented web developer with a strong foundation in HTML, CSS, JavaScript, and Node.js. Adept at building responsive and user-friendly web applications, with a recent focus on mastering React. Actively engaged in a research project for the past four months, demonstrating a commitment to continuous learning and practical application of new technologies. Eager to leverage technical skills and collaborative experience to contribute effectively to innovative web development projects.";
+$contacts = array(
+  "bhandarib1@nku.edu",
+  8597863719,
+  "linkedin.com/in/bhuwan9898",
+  "github.com/bhuwan9898"
+);
 $research = array(
   "researchTitle" => "Research Assistant",
-  "company" =>"College of Informatics, NKU",
+  "company" => "College of Informatics, NKU",
   "date" => "May 2024 - Present",
   "description" => "Developed and implemented dynamic heatmaps and fixation-maps using HTML Canvas and JavaScript, overlaying these visualizations over manuscript images. Designed and built the front-end UI for a web application, employing HTML, CSS, and JavaScript to create a user-friendly interface for eye specialists.",
   "achievements" => "Gained experience in collaborating with domain experts to translate their requirements into effective technical solutions, improving both efficiency and user experience."
 );
 $tourismWebsite = array(
   "projectTitle" => "Co-Founder and Developer",
-  "project" =>"Tourism Website",
+  "project" => "Tourism Website",
   "date" => "Jan 2024 - Present",
   "description" => "Developed a full-stack web application with HTML, CSS, JavaScript, Node.js, and MongoDB, enabling users to choose travel destinations based on peer reviews. Created a comprehensive rating system for popular places, helping users make informed decisions. Implemented secure user authentication using JSON Web Tokens, managing login/signup processes and safeguarding sensitive data",
-  "achievements" =>"Helped the users to navigate the places 13% faster by implementing the review system."
+  "achievements" => "Helped the users to navigate the places 13% faster by implementing the review system."
 );
 $budgetBuddyApp = array(
   "projectTitle" => "Co-Founder and Developer",
-  "project" =>"NKU Fidelity Hackathon",
+  "project" => "NKU Fidelity Hackathon",
   "date" => "April 2024 ",
   "description" => "Developed Budget Buddy app, a dynamic financial education platform, during a 24-hour hackathon by Fidelity Investments, securing third place. The platform features randomized quizzes on financial topics and real-time feedback using GPT-4 integration. This project showcased expertise in web application development and prompt engineering, enhancing users' financial literacy through interactive learning",
-  "achievements" =>"Helped the users to understand the concepts of finance and economy ."
+  "achievements" => "Helped the users to understand the concepts of finance and economy ."
 );
-$skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Tailwind CSS", "Git", "Unit Testing");
+$skills = array("React", "HTML", "CSS", "JavaScript", "Node JS", "Bootstrap", "Tailwind CSS", "Git", "Unit Testing");
 
 ?>
 
@@ -56,6 +56,7 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css" />
   </head>
+
   <body>
     <article class="resume-wrapper text-center position-relative">
       <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
@@ -76,13 +77,13 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                     class="name mt-0 mb-1 text-white text-uppercase text-uppercase"
                   >
                     <?php
-									echo $name
-									?>
+                  echo $name
+                    ?>
                   </h1>
                   <div class="title mb-3">
                     <?php
-									echo $jobTitle
-									?>
+                  echo $jobTitle
+                    ?>
                   </div>
                   <ul class="list-unstyled">
                     <li class="mb-2">
@@ -90,13 +91,11 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                         ><i
                           class="far fa-envelope fa-fw me-2"
                           data-fa-transform="grow-3"
-                        ></i
-                        >
-                        <?php 
-                        echo $contacts[0]
+                        ></i>
+                        <?php
+                      echo $contacts[0]
                         ?>
-                        </a
-                      >
+                      </a>
                     </li>
                     <li>
                       <a class="text-link" href="#"
@@ -104,10 +103,10 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                           class="fas fa-mobile-alt fa-fw me-2"
                           data-fa-transform="grow-6"
                         ></i
-                        ><?php 
+                        ><?php
                         echo $contacts[1]
-                        ?></a
-                      >
+                          ?>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -117,22 +116,21 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                     <li class="mb-3">
                       <a class="text-link" href="#"
                         ><span class="fa-container text-center me-2"
-                          ><i class="fab fa-linkedin-in fa-fw"></i></span
-                        >
-                        <?php 
-                        echo $contacts[2]
+                          ><i class="fab fa-linkedin-in fa-fw"></i
+                        ></span>
+                        <?php
+                      echo $contacts[2]
                         ?>
-                        </a
-                      >
+                      </a>
                     </li>
                     <li class="mb-3">
                       <a class="text-link" href="#"
                         ><span class="fa-container text-center me-2"
                           ><i class="fab fa-github-alt fa-fw"></i></span
-                        ><?php 
-                        echo $contacts[3]
-                        ?>
-                        </a>
+                        ><?php
+                          echo $contacts[3]
+                            ?>
+                      </a>
                     </li>
                     <li>
                       <a class="text-link" href="#"
@@ -160,8 +158,8 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
             </h2>
             <div class="resume-section-content">
               <p class="mb-0">
-              <?php 
-                echo $summary
+                <?php
+              echo $summary
                 ?>
               </p>
             </div>
@@ -185,29 +183,29 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                           <h3
                             class="resume-position-title font-weight-bold mb-1"
                           >
-                          <?php 
+                            <?php
                           echo $research["researchTitle"]
                             ?>
                           </h3>
                           <div class="resume-company-name ms-auto">
-                          <?php 
+                            <?php
                           echo $research["company"]
                             ?>
                           </div>
                         </div>
                         <!--//row-->
                         <div class="resume-position-time">
-                        <?php 
-                          echo $research["date"]
-                            ?>
+                          <?php
+                        echo $research["date"]
+                          ?>
                         </div>
                       </div>
                       <!--//resume-timeline-item-header-->
                       <div class="resume-timeline-item-desc">
                         <p>
-                        <?php 
-                          echo $research["description"]
-                            ?>
+                          <?php
+                        echo $research["description"]
+                          ?>
                         </p>
                         <h4
                           class="resume-timeline-item-desc-heading font-weight-bold"
@@ -215,9 +213,9 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                           Achievements:
                         </h4>
                         <p>
-                        <?php 
-                          echo $research["achievements"]
-                            ?>
+                          <?php
+                        echo $research["achievements"]
+                          ?>
                         </p>
                         <ul>
                           <li>
@@ -272,41 +270,40 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                           <h3
                             class="resume-position-title font-weight-bold mb-1"
                           >
-                          <?php 
+                            <?php
                           echo $tourismWebsite["projectTitle"]
                             ?>
                           </h3>
                           <div class="resume-company-name ms-auto">
-                          <?php 
+                            <?php
                           echo $tourismWebsite["project"]
                             ?>
                           </div>
                         </div>
                         <!--//row-->
                         <div class="resume-position-time">
-                        <?php 
-                          echo $tourismWebsite["date"]
-                            ?>
+                          <?php
+                        echo $tourismWebsite["date"]
+                          ?>
                         </div>
                       </div>
                       <!--//resume-timeline-item-header-->
                       <div class="resume-timeline-item-desc">
                         <p>
-                        <?php 
-                          echo $tourismWebsite["description"]
-                            ?>
-
+                          <?php
+                        echo $tourismWebsite["description"]
+                          ?>
                         </p>
-                       
+
                         <h4
                           class="resume-timeline-item-desc-heading font-weight-bold"
                         >
                           Achievements
                         </h4>
                         <p>
-                        <?php 
-                          echo $tourismWebsite["achievements"]
-                            ?>
+                          <?php
+                        echo $tourismWebsite["achievements"]
+                          ?>
                         </p>
                         <h4
                           class="resume-timeline-item-desc-heading font-weight-bold"
@@ -358,33 +355,34 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                           <h3
                             class="resume-position-title font-weight-bold mb-1"
                           >
-                          <?php 
+                            <?php
                           echo $budgetBuddyApp["projectTitle"]
                             ?>
                           </h3>
                           <div class="resume-company-name ms-auto">
-                          <?php 
+                            <?php
                           echo $budgetBuddyApp["project"]
                             ?>
                           </div>
                         </div>
                         <!--//row-->
-                        <div class="resume-position-time"> 
-                          <?php 
-                          echo $budgetBuddyApp["date"]
-                            ?></div>
+                        <div class="resume-position-time">
+                          <?php
+                        echo $budgetBuddyApp["date"]
+                          ?>
+                        </div>
                       </div>
                       <!--//resume-timeline-item-header-->
                       <div class="resume-timeline-item-desc">
                         <p>
-                        <?php 
-                          echo $budgetBuddyApp["description"]
-                            ?>
+                          <?php
+                        echo $budgetBuddyApp["description"]
+                          ?>
                         </p>
                         <p>
-                        <?php 
-                          echo $budgetBuddyApp["achievements"]
-                            ?>
+                          <?php
+                        echo $budgetBuddyApp["achievements"]
+                          ?>
                         </p>
                         <h4
                           class="resume-timeline-item-desc-heading font-weight-bold"
@@ -440,9 +438,9 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                     <ul class="list-unstyled mb-4">
                       <li class="mb-2">
                         <div class="resume-skill-name">
-                        <?php 
-                          echo $skills[0]
-                            ?>
+                          <?php
+                        echo $skills[0]
+                          ?>
                         </div>
                         <div class="progress resume-progress">
                           <div
@@ -457,9 +455,9 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                       </li>
                       <li class="mb-2">
                         <div class="resume-skill-name">
-                        <?php 
-                          echo $skills[1]
-                            ?>
+                          <?php
+                        echo $skills[1]
+                          ?>
                         </div>
                         <div class="progress resume-progress">
                           <div
@@ -474,9 +472,9 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                       </li>
                       <li class="mb-2">
                         <div class="resume-skill-name">
-                        <?php 
-                          echo $skills[2]
-                            ?>
+                          <?php
+                        echo $skills[2]
+                          ?>
                         </div>
                         <div class="progress resume-progress">
                           <div
@@ -492,9 +490,9 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
 
                       <li class="mb-2">
                         <div class="resume-skill-name">
-                        <?php 
-                          echo $skills[3]
-                            ?>
+                          <?php
+                        echo $skills[3]
+                          ?>
                         </div>
                         <div class="progress resume-progress">
                           <div
@@ -509,9 +507,9 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                       </li>
                       <li class="mb-2">
                         <div class="resume-skill-name">
-                        <?php 
-                          echo $skills[4]
-                            ?>
+                          <?php
+                        echo $skills[4]
+                          ?>
                         </div>
                         <div class="progress resume-progress">
                           <div
@@ -531,24 +529,26 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                     <h4 class="resume-skills-cat font-weight-bold">Others</h4>
                     <ul class="list-inline">
                       <li class="list-inline-item">
-                        <span class="badge badge-light"><?php 
-                          echo $skills[5]
-                            ?></span>
+                        <span class="badge badge-light"
+                          ><?php
+                      echo $skills[5]
+                        ?></span
+                        >
                       </li>
                       <li class="list-inline-item">
-                        <span class="badge badge-light"><?php 
-                          echo $skills[6]
-                            ?></span>
+                        <span class="badge badge-light"
+                          ><?php
+                      echo $skills[6]
+                        ?></span
+                        >
                       </li>
                       <li class="list-inline-item">
                         <span class="badge badge-light">
-                        <?php 
-                          echo $skills[7]
-                            ?>
+                          <?php
+                        echo $skills[7]
+                          ?>
                         </span>
                       </li>
-                    
-                    
                     </ul>
                   </div>
                   <!--//resume-skill-item-->
@@ -566,19 +566,20 @@ $skills = array("React", "HTML", "CSS", "JavaScript","Node JS", "Bootstrap", "Ta
                   <ul class="list-unstyled">
                     <li class="mb-2">
                       <div class="resume-degree font-weight-bold">
-                      <?php 
-                          echo "BSC in Computer Science"
-                            ?>
+                        <?php
+                      echo "BSC in Computer Science"
+                        ?>
                       </div>
                       <div class="resume-degree-org">
-                      <?php 
-                          echo "Northern Kentucky University"
-                            ?>
+                        <?php
+                      echo "Northern Kentucky University"
+                        ?>
                       </div>
-                      <div class="resume-degree-time"> 
-                        <?php 
-                          echo "Jan 2022- Present"
-                            ?></div>
+                      <div class="resume-degree-time">
+                        <?php
+                      echo "Jan 2022- Present"
+                        ?>
+                      </div>
                     </li>
                   </ul>
                 </div>
