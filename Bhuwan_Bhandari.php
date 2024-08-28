@@ -572,30 +572,38 @@ $interests = array("Traveling", "Drawing", "Learning", "Dancing", "Swimming")
           <div class="row mt-4">
             <div class="col-md-4">
               <div class="card">
-                <img src="path-to-project-image1.jpg" alt="Project 1" class="card-img-top" />
+                <img src="assets/images/project1.png" alt="Project 1" class="card-img-top" />
                 <div class="card-body">
-                  <h5 class="card-title">Project 1</h5>
-                  <p class="card-text">Brief description of Project 1.</p>
-                  <a href="btn btn-outline-primary" href="#">Go to link</a>
+                  <h5 class="card-title">Falling Blocks</h5>
+                  <p class="card-text">The game is designed with intuitive controls, so players can easily use the
+                    keyboard or mouse to direct the blocks. The real-time rendering ensures that the graphics remain
+                    fluid and responsive, making the game enjoyable and visually appealing. </p>
+                  <a href="btn btn-outline-primary" href="https://github.com/bhuwan9898/Falling-Blocks">Go to link</a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card">
-                <img src="path-to-project-image2.jpg" alt="Project 2" class="card-img-top" />
+                <img src="assets/images/project2.png" alt="Project 2" class="card-img-top" />
                 <div class="card-body">
-                  <h5 class="card-title">Project 2</h5>
-                  <p class="card-text">Brief description of Project 2.</p>
-                  <a href="btn btn-outline-primary" href="#">Go to link</a>
+                  <h5 class="card-title">Tourism Website</h5>
+                  <p class="card-text">Developed a full-stack web application with HTML, CSS, JavaScript, Node.js, and
+                    MongoDB, enabling users to choose travel destinations based on peer reviews. Created a comprehensive
+                    rating system for popular places, helping users make informed decisions. </p>
+                  <a href="btn btn-outline-primary" href="https://github.com/bhuwan9898/TourismWebsite">Go to link</a>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card">
-                <img src="path-to-project-image3.jpg" alt="Project 3" class="card-img-top" />
+                <img src="assets/images/project3.jpeg" alt="Project 3" class="card-img-top" />
                 <div class="card-body">
-                  <h5 class="card-title">Project 3</h5>
-                  <p class="card-text">Brief description of Project 3.</p>
+                  <h5 class="card-title">Budget Buddy App</h5>
+                  <p class="card-text">
+                    Developed Budget Buddy app, a dynamic financial education platform, during a 24-hour hackathon by
+                    Fidelity Investments, securing third place. The platform features randomized quizzes on financial
+                    topics and real-time feedback using GPT-4 integration.
+                  </p>
                   <a href="btn btn-outline-primary" href="#">Go to link</a>
                 </div>
               </div>
