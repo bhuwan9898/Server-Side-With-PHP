@@ -8,59 +8,24 @@ PHP (Hypertext Preprocessor) is a versatile and widely-used programming language
 
 ## 📚 Course Overview
 
-I'll be following a structured approach to learning PHP, covering the following topics:
+I'll be following a structured approach to learning PHP, covering a lot of topics. In this branch I have especially worked with the following topics:
 
 ### Getting Started with PHP
 - Setting up the environment
 - Writing your first PHP script
 - Understanding PHP syntax and variables
-
-### Control Structures
-- Conditional statements (if, else, switch)
-- Looping structures (for, while, foreach)
-
-### Functions and Arrays
-- Defining and calling functions
-- Working with arrays and array functions
-
-### Working with Forms
-- Handling form data using GET and POST
-- Validating user input
-
-### PHP and Databases
-- Connecting to a MySQL database
-- Performing CRUD operations (Create, Read, Update, Delete)
-
-### Object-Oriented PHP
-- Classes and objects
-- Inheritance and polymorphism
-
-### Advanced Topics
-- File handling in PHP
-- Error handling and exceptions
-- Working with sessions and cookies
+- - Some indexed and associative arrays
 
 ## 🎯 Goals
-- Gain a solid understanding of PHP fundamentals.
-- Build a series of projects to apply what I've learned.
-- Create a portfolio of PHP-based applications.
-
-## 🌱 Progress Tracking
-
-I'll be updating this repository with:
-
-- **Code snippets**: Small exercises and examples as I learn.
-- **Mini-projects**: To solidify my understanding of key concepts.
-- **Notes and resources**: Useful references and tips.
-- **Challenges**: Problems and solutions as I work through various tasks.
-
-## 🚀 Future Plans
-
-After completing the foundational course, I plan to:
-
-- Explore PHP frameworks like Laravel or Symfony.
-- Integrate PHP with other web technologies (e.g., JavaScript, AJAX).
-- Contribute to open-source PHP projects.
+- Establish a Functional Development Environment.
+- Write and execute simple PHP scripts.
+- Understand how PHP integrates with HTML.
+- Learn to use PHP tags correctly.
+- Grasp the basics of PHP syntax and structure.
+- Declare and use variables in PHP.
+- Create and manipulate indexed arrays.
+- Understand and use associative arrays.
+- Apply array functions for sorting, searching, and modifying array.
 
 ## 🛠 Tools & Technologies
 - **PHP**: The language of choice for this journey.
