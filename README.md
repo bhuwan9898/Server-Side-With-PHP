@@ -14,7 +14,7 @@ I'll be following a structured approach to learning PHP, covering a lot of topic
 - Setting up the environment
 - Writing your first PHP script
 - Understanding PHP syntax and variables
-- - Some indexed and associative arrays
+- Some indexed and associative arrays
 
 ## 🎯 Goals
 - Establish a Functional Development Environment.
