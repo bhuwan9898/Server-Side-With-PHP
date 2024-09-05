@@ -34,5 +34,5 @@ In this branch I will be working as a team member to create two pages index.php 
 
 ## 🤝 Contributions
 
-- Joey and Bhuwan
+- (Joey and Bhuwan)
 This repository is primarily for our learning, but if you have suggestions, resources, or tips, feel free to contribute! We'are always open to feedback and collaboration.
