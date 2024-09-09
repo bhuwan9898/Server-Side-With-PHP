@@ -1,452 +1,515 @@
 <?php
 // INSERT DATA HERE.
+$teamMembers = [
+'Joey' => [
+		'name' => 'Joey Ampfer',
+		'role' => 'Full-Stack Developer',
+		'email' => 'joseph.ampfer@gmail.com',
+		'phone' => '+1 (859)-638-7358',
+		'linkedin' => 'linkedin.com/in/joseph-ampfer',
+		'github' => 'github.com/joseph-ampfer',
+		'website' => 'joseph-ampfer.github.io',
+		'headshot' => 'assets/images/joey.jpg',
+		'summary' => "I graduated with a Bachelor’s degree in Cellular Molecular Biology from Northern Kentucky University and briefly attended medical school at UK College of Medicine, where I founded the AI in Medicine Interest Group. I'm currently pursuing an Applied Software Engineering degree at NKU. My professional experience spans research labs, medical technology, and education, along with developing mobile apps like Touch Grass Royale—a tool to reduce screen time using React Native, Docker, and Cloud technologies. Additionally, I authored a children's book on bacteria and antibiotic resistance.",
+		'workExperience' => [
+			[
+				'title' => 'Founder, AI in Medicine Interest Group',
+				'location' => 'UK College of Medicine',
+				'time' => '2023 - 2024',
+				'description' => 'Initiated and lead a professional group aimed at exploring the integration of artificial intelligence in medical practices and research, organized events for medical professionals to discuss and explore the implications of AI in healthcare.',
+				'achievements' => null,
+			],
+			[
+				'title' => 'Laboratory Technologist',
+				'location' => 'Cincinnati Children\'s Hospital',
+				'time' => '2021 - 2022',
+				'description' => 'As a Laboratory Technologist, I specialized in conducting complex laboratory tests and analyses across a variety of medical disciplines, utilizing advanced equipment and rigorous methodologies. I maintained a strong commitment to precision and operational efficiency in a fast-paced, high-stakes environment.',
+				'achievements' => [
+					'description' => '',
+					'bullets' => [
+						'Enhanced Lab Efficiency: Increased testing turnaround by 15% through process optimizations, enhancing department throughput.',
+						'Advanced Diagnostic Testing: Executed intricate diagnostic procedures to support critical clinical decisions.',
+						'Quality and Accuracy: Upheld high standards of test accuracy and detail, ensuring reliable patient diagnostics.'
+					],
+					'technologies' => null
+				],
+			],
+			[
+				'title' => 'Standardized Patient',
+				'location' => 'UK College of Medicine',
+				'time' => '2019 - 2022',
+				'description' => 'Performed in simulated clinical encounters, memorizing and presenting detailed case scripts that included various emotions, behaviors, and symptoms to enhance the learning experiences of medical students. Delivered case information consistently and provided standardized, constructive feedback to assess and improve student diagnostic skills.',
+				'achievements' => null
+			],
+			[
+				'title' => 'Research Assistant',
+				'location' => 'Northern Kentucky University',
+				'time' => '2020 - 2021',
+				'description' => 'Engaged in pioneering research, focusing on the genetic responses of S. cerevisiae (yeast) to the breast cancer drug Tamoxifen. Analyzed the interaction of Tamoxifen with S-Adenosylmethionine (SAM), crucial for understanding drug mechanisms and efficacy.',
+				'achievements' => [
+					'description' => 'Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.',
+					'bullets' => [
+						'Publication: Co-authored a study published in a peer-reviewed journal, which is recognized for advancing knowledge in molecular genetics.',
+						'Scientific Contribution: Enhanced the scientific community\'s understanding of drug interactions, potentially impacting cancer treatment protocols.',
+						'Innovative Research: Led experiments on gene behavior in yeast, contributing to the understanding of pharmacogenomics and drug efficacy.'
+					],
+					'technologies' => null
+				],
+			],
+			[
+				'title' => 'Supplemental Instruction Leader',
+				'location' => 'Northern Kentucky University',
+				'time' => '2020 - 2021',
+				'description' => 'Directed supplemental instruction sessions for a diverse group of fifty students, adapting lessons and curriculum to enhance understanding and engagement. Employed peer-assisted learning and collaborative strategies to optimize academic outcomes. Led and mentored other SI leaders in executing effective exam reviews.',
+				'achievements' => null
+			]
+		],
+		'skills' => [
+			[
+				'title' => 'React Native',
+				'percentage' => 90,
+			],
+			[
+				'title' => 'JavaScript',
+				'percentage' => 90
+			],
+			[
+				'title' => 'Python',
+				'percentage' => 92
+			],
+			[
+				'title' => 'SQL',
+				'percentage' => '95'
+			],
+			[
+				'title' => 'PHP',
+				'percentage' => 84
+			]
+		],
+		'others' => ['Google Cloud Run, Git, Firebase, Docker, Flask, HTML & CSS, Bootstrap, TailwindCSS, Expo, Google Cloud SQL, Java'],
+		'education' => [
+			[
+				'title' => 'BSc in Applied Software Engineering',
+				'location' => 'Northern Kentucky University',
+				'time' => '2024 - 2026'
+			],
+			[
+				'title' => 'BSc in Cellular Molecular Biology',
+				'location' => 'Northern Kentucky University',
+				'time' => '2017 - 2021'
+			]
+		],
+		'awards' => [
+			[
+				'title' => 'First-Year Achievement Award',
+				'description' => 'UK College of Medicine distinguishing award goes to the top 1% of students during the first year of medical school.'
+			],
+			[
+				'title' => 'Summa Cum Laude',
+				'description' => 'Northern Kentucky University honors.'
+			]
+		],
+		'languages' => [
+			'English' => 'Native'
+		],
+		'interests' => ['Golf', 'Snowboarding', 'Tennis', 'Volleyball'],
+		'projects' => [
+			[
+				'title' => 'Mobile Finance App',
+				'description' => 'Developed a cross-platform mobile app for virtual stock trading, using React Native/Expo for broad compatibility and Flask for backend services.',
+				'picture' => 'assets/images/AMPFERFinanceScreenshot.png',
+				'link' => 'https://github.com/joseph-ampfer/AmpferFinance'
+			],
+			[
+				'title' => 'Personal Website',
+				'description' => 'Engineered a responsive portfolio website highlighting my professional journey and technical skills, using HTML, CSS, Bootstrap, and JavaScript.',
+				'picture' => 'assets/images/websiteSnip.JPG',
+				'link' => 'https://joseph-ampfer.github.io/'
+			],
+			[
+				'title' => 'Touch Grass Royale',
+				'description' => 'Designed and implemented a mobile app to challenge friends to reduce screen time, featuring a Dockerized API and integration with Google Cloud and Firebase.',
+				'picture' => 'assets/images/instagramTGR.png',
+				'link' => 'https://play.google.com/apps/testing/com.jampfer.touch_grass'
+			]
+		]
+	],
+	'Bhuwan' => [
+		'name' => 'Joey Ampfer',
+		'role' => 'Full-Stack Developer',
+		'email' => 'joseph.ampfer@gmail.com',
+		'phone' => '+1 (859)-638-7358',
+		'linkedin' => 'linkedin.com/in/joseph-ampfer',
+		'github' => 'github.com/joseph-ampfer',
+		'website' => 'joseph-ampfer.github.io',
+		'headshot' => 'assets/images/joey.jpg',
+		'summary' => "I graduated with a Bachelor’s degree in Cellular Molecular Biology from Northern Kentucky University and briefly attended medical school at UK College of Medicine, where I founded the AI in Medicine Interest Group. I'm currently pursuing an Applied Software Engineering degree at NKU. My professional experience spans research labs, medical technology, and education, along with developing mobile apps like Touch Grass Royale—a tool to reduce screen time using React Native, Docker, and Cloud technologies. Additionally, I authored a children's book on bacteria and antibiotic resistance.",
+		'workExperience' => [
+			[
+				'title' => 'Founder, AI in Medicine Interest Group',
+				'location' => 'UK College of Medicine',
+				'time' => '2023 - 2024',
+				'description' => 'Initiated and lead a professional group aimed at exploring the integration of artificial intelligence in medical practices and research, organized events for medical professionals to discuss and explore the implications of AI in healthcare.',
+				'achievements' => null,
+			],
+			[
+				'title' => 'Laboratory Technologist',
+				'location' => 'Cincinnati Children\'s Hospital',
+				'time' => '2021 - 2022',
+				'description' => 'As a Laboratory Technologist, I specialized in conducting complex laboratory tests and analyses across a variety of medical disciplines, utilizing advanced equipment and rigorous methodologies. I maintained a strong commitment to precision and operational efficiency in a fast-paced, high-stakes environment.',
+				'achievements' => [
+					'description' => '',
+					'bullets' => [
+						'Enhanced Lab Efficiency: Increased testing turnaround by 15% through process optimizations, enhancing department throughput.',
+						'Advanced Diagnostic Testing: Executed intricate diagnostic procedures to support critical clinical decisions.',
+						'Quality and Accuracy: Upheld high standards of test accuracy and detail, ensuring reliable patient diagnostics.'
+					],
+					'technologies' => null
+				],
+			],
+			[
+				'title' => 'Standardized Patient',
+				'location' => 'UK College of Medicine',
+				'time' => '2019 - 2022',
+				'description' => 'Performed in simulated clinical encounters, memorizing and presenting detailed case scripts that included various emotions, behaviors, and symptoms to enhance the learning experiences of medical students. Delivered case information consistently and provided standardized, constructive feedback to assess and improve student diagnostic skills.',
+				'achievements' => null
+			],
+			[
+				'title' => 'Research Assistant',
+				'location' => 'Northern Kentucky University',
+				'time' => '2020 - 2021',
+				'description' => 'Engaged in pioneering research, focusing on the genetic responses of S. cerevisiae (yeast) to the breast cancer drug Tamoxifen. Analyzed the interaction of Tamoxifen with S-Adenosylmethionine (SAM), crucial for understanding drug mechanisms and efficacy.',
+				'achievements' => [
+					'description' => 'Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.',
+					'bullets' => [
+						'Publication: Co-authored a study published in a peer-reviewed journal, which is recognized for advancing knowledge in molecular genetics.',
+						'Scientific Contribution: Enhanced the scientific community\'s understanding of drug interactions, potentially impacting cancer treatment protocols.',
+						'Innovative Research: Led experiments on gene behavior in yeast, contributing to the understanding of pharmacogenomics and drug efficacy.'
+					],
+					'technologies' => null
+				],
+			],
+			[
+				'title' => 'Supplemental Instruction Leader',
+				'location' => 'Northern Kentucky University',
+				'time' => '2020 - 2021',
+				'description' => 'Directed supplemental instruction sessions for a diverse group of fifty students, adapting lessons and curriculum to enhance understanding and engagement. Employed peer-assisted learning and collaborative strategies to optimize academic outcomes. Led and mentored other SI leaders in executing effective exam reviews.',
+				'achievements' => null
+			]
+		],
+		'skills' => [
+			[
+				'title' => 'React Native',
+				'percentage' => 90,
+			],
+			[
+				'title' => 'JavaScript',
+				'percentage' => 90
+			],
+			[
+				'title' => 'Python',
+				'percentage' => 92
+			],
+			[
+				'title' => 'SQL',
+				'percentage' => '95'
+			],
+			[
+				'title' => 'PHP',
+				'percentage' => 84
+			]
+		],
+		'others' => ['Google Cloud Run, Git, Firebase, Docker, Flask, HTML & CSS, Bootstrap, TailwindCSS, Expo, Google Cloud SQL, Java'],
+		'education' => [
+			[
+				'title' => 'BSc in Applied Software Engineering',
+				'location' => 'Northern Kentucky University',
+				'time' => '2024 - 2026'
+			],
+			[
+				'title' => 'BSc in Cellular Molecular Biology',
+				'location' => 'Northern Kentucky University',
+				'time' => '2017 - 2021'
+			]
+		],
+		'awards' => [
+			[
+				'title' => 'First-Year Achievement Award',
+				'description' => 'UK College of Medicine distinguishing award goes to the top 1% of students during the first year of medical school.'
+			],
+			[
+				'title' => 'Summa Cum Laude',
+				'description' => 'Northern Kentucky University honors.'
+			]
+		],
+		'languages' => [
+			'English' => 'Native'
+		],
+		'interests' => ['Golf', 'Snowboarding', 'Tennis', 'Volleyball'],
+		'projects' => [
+			[
+				'title' => 'Mobile Finance App',
+				'description' => 'Developed a cross-platform mobile app for virtual stock trading, using React Native/Expo for broad compatibility and Flask for backend services.',
+				'picture' => 'assets/images/AMPFERFinanceScreenshot.png',
+				'link' => 'https://github.com/joseph-ampfer/AmpferFinance'
+			],
+			[
+				'title' => 'Personal Website',
+				'description' => 'Engineered a responsive portfolio website highlighting my professional journey and technical skills, using HTML, CSS, Bootstrap, and JavaScript.',
+				'picture' => 'assets/images/websiteSnip.JPG',
+				'link' => 'https://joseph-ampfer.github.io/'
+			],
+			[
+				'title' => 'Touch Grass Royale',
+				'description' => 'Designed and implemented a mobile app to challenge friends to reduce screen time, featuring a Dockerized API and integration with Google Cloud and Firebase.',
+				'picture' => 'assets/images/instagramTGR.png',
+				'link' => 'https://play.google.com/apps/testing/com.jampfer.touch_grass'
+			]
+		]
+	],
+];
+
+$key = $_GET['key'];
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"> 
 <head>
-	<title>Your name's Resume</title>
-
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Your name's resume">
-	<meta name="author" content="Your name">
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<!-- Google Font -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-
-	<!-- FontAwesome JS-->
+    <title><?= $teamMembers[$key]['name']?> Resume</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your name's resume">
+    <meta name="author" content="Your name">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
+       
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
 
-	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
 
-
-</head>
+</head> 
 
 <body>
-	<article class="resume-wrapper text-center position-relative">
+    <article class="resume-wrapper text-center position-relative">
 		<?php /* Only the following line changed from the file in the previous assignment */ ?>
 		<div class="mb-4"><a href="index.php" class="btn btn-primary">Back to index</a></div>
-		<div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
-			<header class="resume-header pt-4 pt-md-0">
-				<div class="row">
-					<div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-						<img class="picture" src="assets/images/profile.jpg" alt="">
-					</div><!--//col-->
-					<div class="col">
-						<div class="row p-4 justify-content-center justify-content-md-between">
-							<div class="primary-info col-auto">
-								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Your name</h1>
-								<div class="title mb-3">Your desired job title</div>
-								<ul class="list-unstyled">
-									<li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2"
-												data-fa-transform="grow-3"></i>your@email.com</a></li>
-									<li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2"
-												data-fa-transform="grow-6"></i>0123 456 78900</a></li>
-								</ul>
-							</div><!--//primary-info-->
-							<div class="secondary-info col-auto mt-2">
-								<ul class="resume-social list-unstyled">
-									<li class="mb-3"><a class="text-link" href="#"><span
-												class="fa-container text-center me-2"><i
-													class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/yourlink</a>
-									</li>
-									<li class="mb-3"><a class="text-link" href="#"><span
-												class="fa-container text-center me-2"><i
-													class="fab fa-github-alt fa-fw"></i></span>github.com/yourhandle</a>
-									</li>
-									<li><a class="text-link" href="#"><span class="fa-container text-center me-2"><i
-													class="fas fa-globe"></i></span>yourwebsite.com</a></li>
-								</ul>
-							</div><!--//secondary-info-->
-						</div><!--//row-->
+	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
+		    <header class="resume-header pt-4 pt-md-0">
+			    <div class="row">
+				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+				        <img class="picture" src=<?= $teamMembers[$key]['headshot'] ?> alt="">
+				    </div><!--//col-->
+				    <div class="col">
+					    <div class="row p-4 justify-content-center justify-content-md-between">
+						    <div class="primary-info col-auto">
+							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?= $teamMembers[$key]['name'] ?></h1>
+							    <div class="title mb-3"><?= $teamMembers[$key]['role'] ?></div>
+							    <ul class="list-unstyled">
+								    <li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?= $teamMembers[$key]['email'] ?></a></li>
+								    <li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i><?= $teamMembers[$key]['phone'] ?></a></li>
+							    </ul>
+						    </div><!--//primary-info-->
+						    <div class="secondary-info col-auto mt-2">
+							    <ul class="resume-social list-unstyled">
+					                <li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span><?= $teamMembers[$key]['linkedin'] ?></a></li>
+					                <li class="mb-3"><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span><?= $teamMembers[$key]['github'] ?></a></li>
+					                <li><a class="text-link" href="#"><span class="fa-container text-center me-2"><i class="fas fa-globe"></i></span><?= $teamMembers[$key]['website'] ?></a></li>
+							    </ul>
+						    </div><!--//secondary-info-->
+					    </div><!--//row-->
+					    
+				    </div><!--//col-->
+			    </div><!--//row-->
+		    </header>
+		    <div class="resume-body p-5">
+			    <section class="resume-section summary-section mb-5">
+				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Summary</h2>
+				    <div class="resume-section-content">
+					    <p class="mb-0"><?= $teamMembers[$key]['summary'] ?></p>
+				    </div>
+			    </section><!--//summary-section-->
+			    <div class="row">
+				    <div class="col-lg-9">
+					    <section class="resume-section experience-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+						    <div class="resume-section-content">
+							    <div class="resume-timeline position-relative">
 
-					</div><!--//col-->
-				</div><!--//row-->
-			</header>
-			<div class="resume-body p-5">
-				<section class="resume-section summary-section mb-5">
-					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Summary</h2>
-					<div class="resume-section-content">
-						<p class="mb-0">Summarise your education and professional experience here. Add a couple of fun
-							facts. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue elit ut nisi
-							vehicula iaculis. Integer porta nisi erat, quis gravida quam dignissim ut. Nullam tincidunt
-							mollis finibus. Vestibulum et diam vel tellus blandit convallis non id mauris. Curabitur
-							feugiat tincidunt ante, ut iaculis sem. Sed eleifend fringilla diam, quis vehicula tellus
-							fringilla sed. In sagittis commodo ipsum pulvinar sagittis. Ut et turpis sit amet erat
-							elementum convallis ac eu ipsum. Aenean varius eget mi in mollis. Integer tempus diam
-							libero, id blandit neque aliquam non. Maecenas eleifend leo ut pellentesque bibendum.
-							Phasellus consectetur facilisis nunc, at ultricies nisi eleifend eget. Fusce molestie et
-							orci non pulvinar. Aenean ac tristique orci, vitae viverra mi.</p>
-					</div>
-				</section><!--//summary-section-->
-				<div class="row">
-					<div class="col-lg-9">
-						<section class="resume-section experience-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience
-							</h2>
-							<div class="resume-section-content">
-								<div class="resume-timeline position-relative">
-									<article class="resume-timeline-item position-relative pb-5">
+									<?php foreach($teamMembers[$key]['workExperience'] as $experience) { ?>
 
-										<div class="resume-timeline-item-header mb-2">
-											<div class="d-flex flex-column flex-md-row">
-												<h3 class="resume-position-title font-weight-bold mb-1">Lead Developer
-												</h3>
-												<div class="resume-company-name ms-auto">Startup Hub</div>
-											</div><!--//row-->
-											<div class="resume-position-time">2023 - Present</div>
-										</div><!--//resume-timeline-item-header-->
-										<div class="resume-timeline-item-desc">
-											<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-												elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-												penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-												quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec
-												pede justo, fringilla vel.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:
-											</h4>
-											<p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas
-												molestias excepturi sint occaecati cupiditate non provident.</p>
-											<ul>
-												<li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-												<li>At vero eos et accusamus et iusto odio dignissimos.</li>
-												<li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-												<li>Maecenas tempus tellus eget.</li>
-											</ul>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies
-												used:</h4>
-											<ul class="list-inline">
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Angular</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Python</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">jQuery</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Webpack</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">HTML/SASS</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">PostgresSQL</span></li>
-											</ul>
-										</div><!--//resume-timeline-item-desc-->
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1"><?= $experience['title']?></h3>
+										        <div class="resume-company-name ms-auto"><?= $experience['location']?></div>
+										    </div><!--//row-->
+										    <div class="resume-position-time"><?= $experience['time']?></div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p><?= $experience['description']?></p>
 
-									</article><!--//resume-timeline-item-->
+												<?php if ($experience['achievements']) { ?>
+													<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
 
-									<article class="resume-timeline-item position-relative pb-5">
+													<p><?= $experience['achievements']['description']?></p>
 
-										<div class="resume-timeline-item-header mb-2">
-											<div class="d-flex flex-column flex-md-row">
-												<h3 class="resume-position-title font-weight-bold mb-1">Senior Software
-													Developer</h3>
-												<div class="resume-company-name ms-auto">Google</div>
-											</div><!--//row-->
-											<div class="resume-position-time">2019 - 2023</div>
-										</div><!--//resume-timeline-item-header-->
-										<div class="resume-timeline-item-desc">
-											<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-												elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-												penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-												quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec
-												pede justo, fringilla vel.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements
-											</h4>
-											<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-												ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-												quis, sem.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies
-												used:</h4>
-											<ul class="list-inline">
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">React</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Redux</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Django</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Webpack</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">HTML/SASS</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">MySQL</span></li>
-											</ul>
-										</div><!--//resume-timeline-item-desc-->
+													<ul>
+														<?php for ($i = 0; $i < count($experience['achievements']['bullets']); $i++ ) { ?>
+															<li><?= $experience['achievements']['bullets'][$i]  ?></li>
+														<?php } ?>
+													</ul>
 
-									</article><!--//resume-timeline-item-->
+													<?php if ($experience['achievements']['technologies']) { ?>
+														<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+														<ul class="list-inline">
+															<?php for ($i = 0; $i < count($experience['achievements']['technologies']); $i++) { ?>
+															<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?= $experience['achievements']['technologies'][$i] ?></span></li>
+															<?php } ?>
+														</ul>
+													<?php } ?>
 
-									<article class="resume-timeline-item position-relative pb-5">
+												<?php } ?>
+									    </div><!--//resume-timeline-item-desc-->
 
-										<div class="resume-timeline-item-header mb-2">
-											<div class="d-flex flex-column flex-md-row">
-												<h3 class="resume-position-title font-weight-bold mb-1">Co-Founder &
-													Lead Developer</h3>
-												<div class="resume-company-name ms-auto">To-do Lists</div>
-											</div><!--//row-->
-											<div class="resume-position-time">2015 - 2019</div>
-										</div><!--//resume-timeline-item-header-->
-										<div class="resume-timeline-item-desc">
-											<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-												elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-												penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-												quam felis, ultricies nec.</p>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-												ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-												dis parturient montes.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies
-												used:</h4>
-											<ul class="list-inline">
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Django</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">JavaScript</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Node.js</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Require.js</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">HTML/SASS</span></li>
-											</ul>
-										</div><!--//resume-timeline-item-desc-->
+								    </article><!--//resume-timeline-item-->
 
-									</article><!--//resume-timeline-item-->
+									<?php } ?>
+								    
+							    </div><!--//resume-timeline-->
+							    
 
-									<article class="resume-timeline-item position-relative">
+						    </div>
+					    </section><!--//projects-section-->
+				    </div>
+				    <div class="col-lg-3">
+					    <section class="resume-section skills-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+						    <div class="resume-section-content">
+						        <div class="resume-skill-item">
+							        <ul class="list-unstyled mb-4">
+												<?php foreach($teamMembers[$key]['skills'] as $skill) { ?>
+													<li class="mb-2">
+															<div class="resume-skill-name"><?= $skill['title'] ?></div>
+														<div class="progress resume-progress">
+															<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: <?= $skill['percentage'] ?>%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+													</li>
+												<?php } ?>
 
-										<div class="resume-timeline-item-header mb-2">
-											<div class="d-flex flex-column flex-md-row">
-												<h3 class="resume-position-title font-weight-bold mb-1">Web Developer
-													<small class="text-muted">(Intern)</small></h3>
-												<div class="resume-company-name ms-auto">Amazon</div>
-											</div><!--//row-->
-											<div class="resume-position-time">2014 - 2015</div>
-										</div><!--//resume-timeline-item-header-->
-										<div class="resume-timeline-item-desc">
-											<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-												elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-												penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-												quam felis, ultricies nec. Fusce vulputate eleifend sapien. Vestibulum
-												purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam
-												accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla.
-												Vestibulum.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies
-												used:</h4>
-											<ul class="list-inline">
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">jQuery</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">HTML/LESS</span></li>
-												<li class="list-inline-item"><span
-														class="badge bg-secondary badge-pill">MongoDB</span></li>
-											</ul>
-										</div><!--//resume-timeline-item-desc-->
+								        
+							        </ul>
+						        </div><!--//resume-skill-item-->
+						        <div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+						            <ul class="list-inline">
 
-									</article><!--//resume-timeline-item-->
+													<?php foreach($teamMembers[$key]['others'] as $other) { ?>
+														<li class="list-inline-item"><span class="badge badge-light"><?= $other ?></span></li>
+													<?php } ?>
+			
+						            </ul>
+						        </div><!--//resume-skill-item-->
+						    </div><!--resume-section-content-->
+					    </section><!--//skills-section-->
+					    <section class="resume-section education-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+										<?php foreach($teamMembers[$key]['education'] as $education) { ?>
+											<li class="mb-2">
+													<div class="resume-degree font-weight-bold"><?= $education['title'] ?></div>
+													<div class="resume-degree-org"><?= $education['location'] ?></div>
+													<div class="resume-degree-time"><?= $education['time'] ?></div>
+											</li>
+										<?php } ?>
+							    </ul>
+						    </div>
+					    </section><!--//education-section-->
+					    <section class="resume-section reference-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled resume-awards-list">
 
+									<?php foreach($teamMembers[$key]['awards'] as $award) { ?>
+								    <li class="mb-2 ps-4 position-relative">
+								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+								        <div class="resume-award-name"><?= $award['title'] ?></div>
+								        <div class="resume-award-desc"><?= $award['description'] ?></div>
+								    </li>
+									<?php } ?>
 
-								</div><!--//resume-timeline-->
-
-
-
-
-
-
-							</div>
-						</section><!--//projects-section-->
-					</div>
-					<div class="col-lg-3">
-						<section class="resume-section skills-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp;
-								Tools</h2>
-							<div class="resume-section-content">
-								<div class="resume-skill-item">
-									<ul class="list-unstyled mb-4">
-										<li class="mb-2">
-											<div class="resume-skill-name">Angular</div>
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
-													style="width: 98%" aria-valuenow="25" aria-valuemin="0"
-													aria-valuemax="100"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">React</div>
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
-													style="width: 94%" aria-valuenow="25" aria-valuemin="0"
-													aria-valuemax="100"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">JavaScript</div>
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
-													style="width: 96%" aria-valuenow="25" aria-valuemin="0"
-													aria-valuemax="100"></div>
-											</div>
-										</li>
-
-										<li class="mb-2">
-											<div class="resume-skill-name">Node.js</div>
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
-													style="width: 92%" aria-valuenow="25" aria-valuemin="0"
-													aria-valuemax="100"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">HTML/CSS/SASS/LESS</div>
-											<div class="progress resume-progress">
-												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
-													style="width: 96%" aria-valuenow="25" aria-valuemin="0"
-													aria-valuemax="100"></div>
-											</div>
-										</li>
+							    </ul>
+						    </div>
+					    </section><!--//interests-section-->
+					    <section class="resume-section language-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Languages</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled resume-lang-list">
+										<?php foreach($teamMembers[$key]['languages'] as $language => $proficiency) { ?>
+								    	<li class="mb-2"><span class="resume-lang-name font-weight-bold"><?= $language ?> </span> <small class="text-muted font-weight-normal">(<?= $proficiency ?>)</small></li>
+								    <?php } ?>
 									</ul>
-								</div><!--//resume-skill-item-->
-								<div class="resume-skill-item">
-									<h4 class="resume-skills-cat font-weight-bold">Others</h4>
-									<ul class="list-inline">
-										<li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Code Review</span>
-										</li>
-										<li class="list-inline-item"><span class="badge badge-light">Git</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Unit Testing</span>
-										</li>
-										<li class="list-inline-item"><span class="badge badge-light">Wireframing</span>
-										</li>
-										<li class="list-inline-item"><span class="badge badge-light">Sketch</span></li>
-										<li class="list-inline-item"><span class="badge badge-light">Balsamiq</span>
-										</li>
-										<li class="list-inline-item"><span class="badge badge-light">WordPress</span>
-										</li>
-										<li class="list-inline-item"><span class="badge badge-light">Shopify</span></li>
-									</ul>
-								</div><!--//resume-skill-item-->
-							</div><!--resume-section-content-->
-						</section><!--//skills-section-->
-						<section class="resume-section education-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
-							<div class="resume-section-content">
-								<ul class="list-unstyled">
-									<li class="mb-2">
-										<div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-										<div class="resume-degree-org">University College London</div>
-										<div class="resume-degree-time">2013 - 2014</div>
-									</li>
-									<li>
-										<div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
-										<div class="resume-degree-org">Imperial College London</div>
-										<div class="resume-degree-time">2010 - 2013</div>
-									</li>
-								</ul>
-							</div>
-						</section><!--//education-section-->
-						<section class="resume-section reference-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
-							<div class="resume-section-content">
-								<ul class="list-unstyled resume-awards-list">
-									<li class="mb-2 ps-4 position-relative">
-										<i class="resume-award-icon fas fa-trophy position-absolute"
-											data-fa-transform="shrink-2"></i>
-										<div class="resume-award-name">Award Name Lorem</div>
-										<div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque
-											eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
-										</div>
-									</li>
-									<li class="mb-0 ps-4 position-relative">
-										<i class="resume-award-icon fas fa-trophy position-absolute"
-											data-fa-transform="shrink-2"></i>
-										<div class="resume-award-name">Award Name Ipsum</div>
-										<div class="resume-award-desc">Award desc goes here, ultricies nec,
-											pellentesque.</div>
-									</li>
-								</ul>
-							</div>
-						</section><!--//interests-section-->
-						<section class="resume-section language-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Languages</h2>
-							<div class="resume-section-content">
-								<ul class="list-unstyled resume-lang-list">
-									<li class="mb-2"><span class="resume-lang-name font-weight-bold">English</span>
-										<small class="text-muted font-weight-normal">(Native)</small></li>
-									<li class="mb-2 align-middle"><span
-											class="resume-lang-name font-weight-bold">French</span> <small
-											class="text-muted font-weight-normal">(Professional)</small></li>
-									<li><span class="resume-lang-name font-weight-bold">Spanish</span> <small
-											class="text-muted font-weight-normal">(Professional)</small></li>
-								</ul>
-							</div>
-						</section><!--//language-section-->
-						<section class="resume-section interests-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
-							<div class="resume-section-content">
-								<ul class="list-unstyled">
-									<li class="mb-1">Climbing</li>
-									<li class="mb-1">Snowboarding</li>
-									<li class="mb-1">Cooking</li>
-								</ul>
-							</div>
-						</section><!--//interests-section-->
-
-					</div>
-				</div><!--//row-->
+						    </div>
+					    </section><!--//language-section-->
+					    <section class="resume-section interests-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+										<?php foreach($teamMembers[$key]['interests'] as $interest) { ?>
+								    	<li class="mb-1"><?= $interest ?></li>
+										<?php } ?>
+							    </ul>
+						    </div>
+					    </section><!--//interests-section-->
+					    
+				    </div>
+			    </div><!--//row-->
 				<section class="resume-section experience-section mb-5">
 					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Projects</h2>
 					<div class="row mt-4">
-						<div class="col-md-4">
-							<div class="card">
-								<img src="path-to-project-image1.jpg" alt="Project 1" class="card-img-top">
-								<div class="card-body">
-									<h5 class="card-title">Project 1</h5>
-									<p class="card-text">Brief description of Project 1.</p>
-									<a href="btn btn-outline-primary" href="#">Go to link</a>
+						<?php foreach($teamMembers[$key]['projects'] as $project) { ?>
+							<div class="col-md-4">
+								<div class="card">
+									<img src=<?= $project['picture'] ?> alt="Project 1" class="card-img-top">
+									<div class="card-body">
+										<h5 class="card-title"><?= $project['title'] ?></h5>
+										<p class="card-text"><?= $project['description'] ?></p>
+										<a class="btn btn-outline-primary" href=<?= $project['link'] ?>>Go to link</a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="card">
-								<img src="path-to-project-image2.jpg" alt="Project 2" class="card-img-top">
-								<div class="card-body">
-									<h5 class="card-title">Project 2</h5>
-									<p class="card-text">Brief description of Project 2.</p>
-									<a href="btn btn-outline-primary" href="#">Go to link</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="card">
-								<img src="path-to-project-image3.jpg" alt="Project 3" class="card-img-top">
-								<div class="card-body">
-									<h5 class="card-title">Project 3</h5>
-									<p class="card-text">Brief description of Project 3.</p>
-									<a href="btn btn-outline-primary" href="#">Go to link</a>
-								</div>
-							</div>
-						</div>
+						<?php } ?>
+
 					</div>
 				</section><!--//projects-section-->
-			</div><!--//resume-body-->
+		    </div><!--//resume-body-->
+		    
+		    
+	    </div>
+    </article> 
 
+    
+    <footer class="footer text-center pt-2 pb-5">
+	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+        <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by 
+				<?php 
+					$firstnames = array_keys($teamMembers); 
+					echo $firstnames[0]." & ".$firstnames[1]
+				?>
+				</small>
+    </footer>
 
-		</div>
-	</article>
-
-
-	<footer class="footer text-center pt-2 pb-5">
-		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-		<small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by Your
-			names</small>
-	</footer>
-
-
+    
 
 </body>
+</html> 
 
-</html>
